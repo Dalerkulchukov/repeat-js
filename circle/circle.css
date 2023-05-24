@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page {
+        margin: 0;
+        padding: 0;
+        width: 1500px;
+        height: 100vh;
+        position: center;
+        background-image: url("./img/galaktika_svechenie_spiral_142698_1920x1080.jpg");
+    }
+.box {
+    display: block;
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    background-size: 100%;
+    background-image: url("../img/pngwing.com.png");
+};
+
+.moon img{
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+}
+.gradient-button {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    border: 0cm;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+
+}
+.gradient-button:hover {
+    background-position: right center;
+}

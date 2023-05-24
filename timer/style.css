@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainCenter {
+    background-image:url("./img/14714-tuman-fon-dymka-tekstura-atmosfera-1920x1080.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerCenter{
+    width: 350px;
+    height: 250px;
+
+}
+
+h1{
+    color:#315154;
+}
+
+h2{
+    font-size: 5rem;
+    margin: 35px;
+    color: #9EEFE1;
+}
+
+
+
+.start {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    border: 0cm;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #62b3b1 0%, #847ac7 51%, #8a4d4a 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+
+}
+.start:hover {
+    background-position: right center;
+}
+.pause {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    border: 0cm;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #62b3b1 0%, #847ac7 51%, #8a4d4a 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+
+}
+.pause:hover {
+    background-position: right center;
+}
+.reset {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    border: 0cm;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #62b3b1 0%, #847ac7 51%, #8a4d4a 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+
+}
+.reset:hover {
+    background-position: right center;
+}
+
+
